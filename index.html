@@ -12,13 +12,13 @@
     <form action="" method="post">
         <!-- Información del cliente -->
         <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" minlength="3" maxlength="50" required><br><br>
 
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required><br><br>
+        <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" minlength="5" maxlength="100" required><br><br>
 
         <label for="direccion">Dirección:</label><br>
-        <textarea id="direccion" name="direccion" rows="3" placeholder="Escribe tu dirección completa" required></textarea><br><br>
+        <textarea id="direccion" name="direccion" rows="3" placeholder="Escribe tu dirección completa" minlength="10" maxlength="200" required></textarea><br><br>
 
         <label for="hora-entrega">Hora de entrega apropiada:</label><br>
         <input type="time" id="hora-entrega" name="hora-entrega" required><br><br>

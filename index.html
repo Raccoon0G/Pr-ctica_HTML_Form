@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pizzería DEV.F</title>
 </head>
 <body>
-    
+    <h1>Formulario de Pedido </h1>
+    <p>Por favor, completa la siguiente información para realizar tu pedido:</p>
+
+    <form action="" method="post">
+        <!-- Información del cliente -->
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="direccion">Dirección:</label><br>
+        <textarea id="direccion" name="direccion" rows="3" required></textarea><br><br>
+
+        <label for="hora-entrega">Hora de entrega apropiada:</label><br>
+        <input type="time" id="hora-entrega" name="hora-entrega" required><br><br>
+
+        <!-- Selección de pizza -->
+        <p>Selecciona el tipo de pizza que deseas:</p>
+
+        <input type="radio" id="napolitana" name="tipo-pizza" value="Pizza Napolitana" required>
+        <label for="napolitana">Pizza Napolitana</label><br>
+
+        <input type="radio" id="pepperoni" name="tipo-pizza" value="Pizza de Pepperoni">
+        <label for="pepperoni">Pizza de Pepperoni</label><br>
+
+        <input type="radio" id="vegana" name="tipo-pizza" value="Pizza Vegana">
+        <label for="vegana">Pizza Vegana</label><br>
+
+        <input type="radio" id="4quesos" name="tipo-pizza" value="Pizza de 4 quesos">
+        <label for="4quesos">Pizza de 4 quesos</label><br><br>
+
+        <button type="submit">Realizar Pedido</button>
 </body>
 </html>

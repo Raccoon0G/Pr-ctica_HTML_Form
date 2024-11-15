@@ -64,6 +64,80 @@ Este comando se utiliza para mostrar las URL de los repositorios remotos que est
 git remote -v
 ```
 
+### `git remote add origin "link de repositorio"`
+Este comando se utiliza para añadir un nuevo repositorio remoto y vincularlo al repositorio local. Es esencial para poder usar comandos como `git push` o `git pull` con ese remoto.
+
+**Uso:**
+```bash
+git remote add origin "https://link_del_repositorio"
+```
+
+### `git remote set-url origin "link de repositorio"`
+Este comando se utiliza para cambiar la URL de un repositorio remoto existente. Es útil si necesitas actualizar el enlace remoto.
+
+**Uso:**
+```bash
+git remote set-url origin "https://nuevo_link_del_repositorio"
+```
+
+### `git branch`
+Este comando lista todas las ramas del repositorio o crea una nueva rama.
+
+**Uso:**
+- Listar ramas:
+```bash
+git branch
+```
+- Crear una nueva rama:
+```bash
+git branch nombre_rama
+```
+
+### `git branch -d nombre_rama`
+Este comando se utiliza para eliminar una rama local. Es útil cuando ya no necesitas una rama específica.
+
+**Uso:**
+```bash
+git branch -d nombre_rama
+```
+
+### `git merge`
+Este comando combina los cambios de una rama con la rama actual. Es útil para integrar nuevas características o correcciones.
+
+**Uso:**
+```bash
+git merge nombre_rama
+```
+
+### `git checkout`
+Este comando se utiliza para cambiar de rama o restaurar archivos en el directorio de trabajo.
+
+**Uso:**
+- Cambiar de rama:
+```bash
+git checkout nombre_rama
+```
+- Restaurar un archivo:
+```bash
+git checkout nombre_archivo
+```
+
+### `git log`
+Este comando muestra el historial de commits del repositorio. Es útil para ver los cambios realizados en cada commit.
+
+**Uso:**
+```bash
+git log
+```
+
+### `git status`
+Este comando muestra el estado actual del repositorio, incluyendo archivos modificados, no rastreados o listos para ser confirmados.
+
+**Uso:**
+```bash
+git status
+```
+
 ---
 
 ## Proyecto y Recursos
@@ -73,3 +147,5 @@ git remote -v
 
 ### Enlace al Repositorio
 GitHub: [Raccon0G](https://github.com/Raccoon0G/)
+
+---

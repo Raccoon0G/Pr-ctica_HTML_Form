@@ -69,7 +69,7 @@ git remote -v
 ## Proyecto y Recursos
 
 ### Imagen de Ejemplo
-![Ejemplo del Proyecto](https://via.placeholder.com/800x400 "Imagen de Ejemplo")
+![Ejemplo del Proyecto](https://via.placeholder.com/800x400/7cd2e3/FFF?text=Imagen+de+ejemplo "Imagen de Ejemplo")
 
 ### Enlace al Repositorio
-Puedes encontrar este proyecto en GitHub: [Repositorio de Practica_HTML_Form](https://github.com/Raccoon0G/Practica_HTML_Form)
+GitHub: [Raccon0G](https://github.com/Raccoon0G/)
